@@ -1,0 +1,978 @@
+[
+  {
+    "id": 1,
+    "text": "I remain calm under pressure.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 2,
+    "text": "I feel overwhelmed when faced with multiple demands simultaneously.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 3,
+    "text": "I can manage my emotions effectively during conflicts.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 4,
+    "text": "I become anxious when plans change unexpectedly.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 5,
+    "text": "I recover quickly from setbacks or disappointments.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 6,
+    "text": "I complete tasks well before their deadlines.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 7,
+    "text": "I often leave work unfinished and return to it later.",
+    "trait": "conscientiousness",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 8,
+    "text": "I pay close attention to detail in everything I do.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 9,
+    "text": "I frequently miss appointments or forget commitments.",
+    "trait": "conscientiousness",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 10,
+    "text": "I consistently follow through on the promises I make.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 11,
+    "text": "I am honest with others even when the truth is inconvenient.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 12,
+    "text": "I sometimes bend the rules if it benefits me personally.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 13,
+    "text": "I take ownership of my mistakes rather than blaming others.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 14,
+    "text": "I have acted unethically to gain a personal advantage.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 15,
+    "text": "I maintain the same standards of behavior whether observed or not.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 16,
+    "text": "I proactively identify problems before they escalate.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 17,
+    "text": "I wait for others to take the lead before I act.",
+    "trait": "initiative",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 18,
+    "text": "I look for opportunities to improve processes in my work.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 19,
+    "text": "I prefer to be told exactly what to do rather than figuring things out.",
+    "trait": "initiative",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 20,
+    "text": "I frequently suggest new ideas or approaches to my team.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 21,
+    "text": "I enjoy working closely with others to achieve shared goals.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 22,
+    "text": "I find it draining to spend long periods interacting with people.",
+    "trait": "sociability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 23,
+    "text": "I am comfortable meeting and engaging with new people.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 24,
+    "text": "I tend to avoid group discussions and prefer to work alone.",
+    "trait": "sociability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 25,
+    "text": "I build rapport easily with colleagues and peers.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 26,
+    "text": "I maintain consistent work habits regardless of external distractions.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 27,
+    "text": "I struggle to adhere to routines when motivation is low.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 28,
+    "text": "I prioritize my responsibilities over entertainment or leisure.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 29,
+    "text": "I often abandon structured plans in favor of impulse decisions.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 30,
+    "text": "I hold myself to high standards of performance in all tasks.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 31,
+    "text": "I stay composed and think clearly even in high-stress situations.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 32,
+    "text": "I let my emotions influence my judgment when under pressure.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 33,
+    "text": "I bounce back from criticism without dwelling on it for long.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 34,
+    "text": "I set clear goals and track my progress consistently.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 35,
+    "text": "I tend to procrastinate on tasks until the last moment.",
+    "trait": "conscientiousness",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 36,
+    "text": "I verify my work thoroughly before submitting or delivering it.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 37,
+    "text": "I keep my promises even when it becomes inconvenient for me.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 38,
+    "text": "I admit when I don't know something rather than guessing incorrectly.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 39,
+    "text": "I have shared credit fairly with teammates for joint achievements.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 40,
+    "text": "I take initiative to learn new skills without being asked.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 41,
+    "text": "I identify and act on opportunities before others notice them.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 42,
+    "text": "I follow through on self-assigned goals without needing supervision.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 43,
+    "text": "I actively listen and understand others' perspectives before responding.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 44,
+    "text": "I make time to help colleagues even when I have my own deadlines.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 45,
+    "text": "I feel energized after collaborative team activities.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 46,
+    "text": "I create detailed plans and stick to them through completion.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 47,
+    "text": "I track my habits and make adjustments to stay on course.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 48,
+    "text": "I complete repetitive tasks with the same quality as interesting ones.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 49,
+    "text": "I handle unexpected schedule changes without becoming frustrated.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 50,
+    "text": "I become irritable when things do not go according to plan.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 51,
+    "text": "I lose patience quickly in situations that move slower than I expect.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 52,
+    "text": "I feel anxious and restless when waiting for important outcomes.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 53,
+    "text": "I adapt smoothly when rules or procedures suddenly change.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 54,
+    "text": "Under pressure, I tend to make hasty decisions I later regret.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 55,
+    "text": "I remain patient even in prolonged or repetitive situations.",
+    "trait": "emotional_stability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 56,
+    "text": "I react strongly when someone challenges my point of view.",
+    "trait": "emotional_stability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 57,
+    "text": "I plan my tasks in detail before I begin them.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 58,
+    "text": "I regularly review my progress against my goals.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 59,
+    "text": "I often skip the planning stage and jump straight into action.",
+    "trait": "conscientiousness",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 60,
+    "text": "I underestimate how long tasks will take and miss deadlines as a result.",
+    "trait": "conscientiousness",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 61,
+    "text": "I break large goals into smaller, manageable steps.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 62,
+    "text": "I keep my workspace organized and free of clutter.",
+    "trait": "conscientiousness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 63,
+    "text": "I find it difficult to trust people I have just met.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 64,
+    "text": "I often assume that others have hidden motives behind their actions.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 65,
+    "text": "I share personal information only with a very small and close circle.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 66,
+    "text": "I keep confidential information strictly to myself without exception.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 67,
+    "text": "I give people the benefit of the doubt before judging their intentions.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 68,
+    "text": "I have withheld information from others to protect my own interests.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 69,
+    "text": "I feel uncomfortable relying on others to handle important tasks.",
+    "trait": "integrity",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 70,
+    "text": "I hold myself to the same ethical standards I expect from others.",
+    "trait": "integrity",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 71,
+    "text": "I make confident decisions even when I do not have all the information I need.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 72,
+    "text": "I take calculated risks when the potential reward justifies them.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 73,
+    "text": "I speak up in group settings even when my opinion is unpopular.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 74,
+    "text": "I willingly take on difficult assignments that others tend to avoid.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 75,
+    "text": "I hesitate to act until I am completely certain of the outcome.",
+    "trait": "initiative",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 76,
+    "text": "I prefer safe, proven approaches over trying something new and uncertain.",
+    "trait": "initiative",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 77,
+    "text": "I step forward to lead a group when it lacks clear direction.",
+    "trait": "initiative",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 78,
+    "text": "I freeze or withdraw when faced with high-stakes decisions.",
+    "trait": "initiative",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 79,
+    "text": "I actively work to build team morale and a positive group atmosphere.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 80,
+    "text": "I go out of my way to include quieter members in group discussions.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 81,
+    "text": "I get frustrated when teammates work at a slower pace than me.",
+    "trait": "sociability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 82,
+    "text": "I prefer to complete work independently rather than depend on the team.",
+    "trait": "sociability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 83,
+    "text": "I adjust my communication style to suit the person I am speaking with.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 84,
+    "text": "I feel energized when I help someone else solve a difficult problem.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 85,
+    "text": "I struggle to stay enthusiastic during long or unproductive team meetings.",
+    "trait": "sociability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 86,
+    "text": "I proactively resolve conflicts within my group before they escalate.",
+    "trait": "sociability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 87,
+    "text": "I invest in my own personal development through courses, books, or training.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 88,
+    "text": "I rarely spend money on things that improve my own comfort or wellbeing.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 89,
+    "text": "I tend to deprioritize my own needs to conserve resources for others.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 90,
+    "text": "I stick to a daily or weekly routine consistently.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 91,
+    "text": "I rarely make exceptions to the standards I set for myself.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 92,
+    "text": "I track my personal finances regularly and stay within budget.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 93,
+    "text": "I often delay self-care activities such as exercise, rest, or hobbies in favor of work.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 94,
+    "text": "I reward myself appropriately when I successfully achieve a goal.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 95,
+    "text": "I neglect activities that help me recharge, sometimes leading to burnout.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 96,
+    "text": "I give as much attention to my personal goals as I do to my professional ones.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 97,
+    "text": "I maintain a healthy balance between work obligations and personal wellbeing.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 98,
+    "text": "I sometimes feel guilty spending time or money on myself, even when I can afford to.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 99,
+    "text": "I set aside dedicated time each week for rest and personal recovery.",
+    "trait": "discipline",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 100,
+    "text": "I struggle to justify purchasing or doing things solely for my own enjoyment.",
+    "trait": "discipline",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 1
+  },
+  {
+    "id": 101,
+    "text": "I map out the entire process before starting a complex task.",
+    "trait": "planning_ability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 102,
+    "text": "I find it difficult to organize tasks logically to achieve a long-term goal.",
+    "trait": "planning_ability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 103,
+    "text": "I take full ownership of the outcomes when I am assigned a task.",
+    "trait": "responsibility",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 104,
+    "text": "I tend to rely on others to ensure my work is completed properly.",
+    "trait": "responsibility",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 105,
+    "text": "I am willing to stand up for my beliefs even when facing strong opposition.",
+    "trait": "courage",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 106,
+    "text": "I avoid confronting people even when they are clearly in the wrong.",
+    "trait": "courage",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 107,
+    "text": "I persist in overcoming obstacles until my objective is achieved.",
+    "trait": "determination",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 108,
+    "text": "I quickly lose motivation when a project becomes unexpectedly difficult.",
+    "trait": "determination",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 109,
+    "text": "I actively foster cooperation and harmony among group members.",
+    "trait": "social_relations",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 110,
+    "text": "I find it exhausting to collaborate closely with team members.",
+    "trait": "social_relations",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 111,
+    "text": "I am resourceful at solving hands-on problems with limited tools.",
+    "trait": "practical_ability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 112,
+    "text": "I struggle to apply theoretical knowledge to real-world situations.",
+    "trait": "practical_ability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 113,
+    "text": "I can effectively persuade others to adopt a common objective.",
+    "trait": "influencing_ability",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 114,
+    "text": "I find it challenging to guide a group toward a shared goal.",
+    "trait": "influencing_ability",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 115,
+    "text": "I constantly stay informed about the events happening in my surroundings.",
+    "trait": "general_awareness",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 116,
+    "text": "I often overlook important details that others notice easily.",
+    "trait": "general_awareness",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 117,
+    "text": "I articulate my thoughts clearly and confidently to others.",
+    "trait": "expression",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 118,
+    "text": "I struggle to find the right words to communicate my ideas effectively.",
+    "trait": "expression",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 119,
+    "text": "I maintain my stamina and focus during physically demanding tasks.",
+    "trait": "physical_endurance",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 120,
+    "text": "I quickly tire out when engaging in rigorous or strenuous activities.",
+    "trait": "physical_endurance",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 121,
+    "text": "I believe in my capabilities to handle whatever challenges come my way.",
+    "trait": "self_confidence",
+    "polarity": "positive",
+    "confidence": 1.0,
+    "phase": 2
+  },
+  {
+    "id": 122,
+    "text": "I frequently doubt my abilities when taking on new responsibilities.",
+    "trait": "self_confidence",
+    "polarity": "negative",
+    "confidence": 1.0,
+    "phase": 2
+  }
+]

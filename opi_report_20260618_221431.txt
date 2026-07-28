@@ -1,0 +1,133 @@
+
+======================================================================
+  OPI PERSONALITY ASSESSMENT — FULL REPORT
+======================================================================
+  Generated : 2026-06-18T22:13:40
+  Session   : 8433efc6
+  Questions : 48 / 100 answered
+
+  >> 1. Summary
+  ----------------------------------------------------------------------
+  This assessment yielded a composite score of 0.76 (Strong),
+  resulting in a verdict of 'Recommended'. The candidate
+  demonstrates notable strengths in Initiative, Sociability.
+
+  >> 2. Trait Scores
+  ----------------------------------------------------------------------
+  Emotional Stability      ###################------   76.8%  [Strong]
+  Conscientiousness        ###################------   75.0%  [Strong]
+  Integrity                ###################------   76.8%  [Strong]
+  Initiative               ####################-----   78.6%  [Strong]
+  Sociability              ####################-----   78.6%  [Strong]
+  Discipline               ###################------   75.0%  [Strong]
+
+  >> 3. Strengths
+  ----------------------------------------------------------------------
+  [+] Initiative (78.6%  - Strong)
+      Q16: "I proactively identify problems before they escalate...."
+             Response: 5 (adjusted: 5)
+      Q17: "I wait for others to take the lead before I act...."
+             Response: 3 (adjusted: 5)
+  [+] Sociability (78.6%  - Strong)
+      Q21: "I enjoy working closely with others to achieve shared goals...."
+             Response: 7 (adjusted: 7)
+      Q22: "I find it draining to spend long periods interacting with pe..."
+             Response: 3 (adjusted: 5)
+  [+] Emotional Stability (76.8%  - Strong)
+      Q1: "I remain calm under pressure...."
+             Response: 7 (adjusted: 7)
+      Q2: "I feel overwhelmed when faced with multiple demands simultan..."
+             Response: 4 (adjusted: 4)
+  [+] Integrity (76.8%  - Strong)
+      Q11: "I am honest with others even when the truth is inconvenient...."
+             Response: 5 (adjusted: 5)
+      Q12: "I sometimes bend the rules if it benefits me personally...."
+             Response: 3 (adjusted: 5)
+  [+] Conscientiousness (75.0%  - Strong)
+      Q6: "I complete tasks well before their deadlines...."
+             Response: 7 (adjusted: 7)
+      Q7: "I often leave work unfinished and return to it later...."
+             Response: 3 (adjusted: 5)
+  [+] Discipline (75.0%  - Strong)
+      Q26: "I maintain consistent work habits regardless of external dis..."
+             Response: 5 (adjusted: 5)
+      Q27: "I struggle to adhere to routines when motivation is low...."
+             Response: 3 (adjusted: 5)
+
+  >> 4. Weaknesses
+  ----------------------------------------------------------------------
+  No traits scored below the weakness threshold.
+
+  >> 5. Consistency Analysis
+  ----------------------------------------------------------------------
+  Consistency Score   : 96.00%
+  Contradiction Rate  : 4.00%
+  Contradictions Found: 1
+    - Q1 vs Q2 (divergence: 3 pts)
+      "I remain calm under pressure...."
+      "I feel overwhelmed when faced with multiple demands sim..."
+
+  >> 6. Response Quality / Bias Check
+  ----------------------------------------------------------------------
+  Extreme Answer Ratio : 20.8%
+  Response Variance    : 2.06
+  Bias Penalty Applied : 0.00
+  Flags                : None
+
+======================================================================
+  FINAL VERDICT
+======================================================================
+  Base Score  : 0.7670
+  Final Score : 0.7610
+
+  >>> VERDICT  : RECOMMENDED
+
+  The candidate demonstrates a well-rounded personality profile with
+  strengths across key professional competencies. Results suggest
+  readiness for the role.
+
+  Reason: Score 0.76 meets or exceeds threshold 0.72.
+
+
+======================================================================
+  YOUR MERITS (STRENGTHS)
+======================================================================
+  ✓  Initiative  —  78.6%  [Strong]
+       Q16: "I proactively identify problems before they escalate."
+              Response: 5 / 7  (adjusted: 5)
+       Q17: "I wait for others to take the lead before I act."
+              Response: 3 / 7  (adjusted: 5)
+  ✓  Sociability  —  78.6%  [Strong]
+       Q21: "I enjoy working closely with others to achieve shared goals."
+              Response: 7 / 7  (adjusted: 7)
+       Q22: "I find it draining to spend long periods interacting with people."
+              Response: 3 / 7  (adjusted: 5)
+  ✓  Emotional Stability  —  76.8%  [Strong]
+       Q1: "I remain calm under pressure."
+              Response: 7 / 7  (adjusted: 7)
+       Q2: "I feel overwhelmed when faced with multiple demands simultaneousl"
+              Response: 4 / 7  (adjusted: 4)
+  ✓  Integrity  —  76.8%  [Strong]
+       Q11: "I am honest with others even when the truth is inconvenient."
+              Response: 5 / 7  (adjusted: 5)
+       Q12: "I sometimes bend the rules if it benefits me personally."
+              Response: 3 / 7  (adjusted: 5)
+  ✓  Conscientiousness  —  75.0%  [Strong]
+       Q6: "I complete tasks well before their deadlines."
+              Response: 7 / 7  (adjusted: 7)
+       Q7: "I often leave work unfinished and return to it later."
+              Response: 3 / 7  (adjusted: 5)
+  ✓  Discipline  —  75.0%  [Strong]
+       Q26: "I maintain consistent work habits regardless of external distract"
+              Response: 5 / 7  (adjusted: 5)
+       Q27: "I struggle to adhere to routines when motivation is low."
+              Response: 3 / 7  (adjusted: 5)
+
+======================================================================
+  YOUR DEMERITS (AREAS FOR DEVELOPMENT)
+======================================================================
+  No traits scored below the demerit threshold (<55%). Well done!
+
+======================================================================
+  End of Report — OPI Personality Assessment System
+======================================================================

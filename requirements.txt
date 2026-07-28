@@ -1,0 +1,53 @@
+# ============================================================
+# OPI Personality Assessment System — Dependencies
+# Python 3.10+ required
+# ============================================================
+
+# ------------------------------------------------------------
+# GUI — PySide6 (Qt6 bindings for Python)
+# Includes all required Qt sub-packages automatically.
+# shiboken6    — C++/Python bridge (required by PySide6)
+# PySide6_Essentials — QtCore, QtGui, QtWidgets, QtNetwork, etc.
+# PySide6_Addons     — QtCharts, QtMultimedia, Qt3D, etc.
+# ------------------------------------------------------------
+PySide6>=6.6.0,<7.0.0
+shiboken6>=6.6.0,<7.0.0
+PySide6-Essentials>=6.6.0,<7.0.0
+PySide6-Addons>=6.6.0,<7.0.0
+
+# ------------------------------------------------------------
+# Networking — used by llm_classifier.py for Ollama HTTP calls
+# ------------------------------------------------------------
+httpx>=0.25.0,<1.0.0
+httpcore>=1.0.0,<2.0.0
+h11>=0.16.0
+
+# ------------------------------------------------------------
+# Optional LLM — OpenAI API (disabled by default in config.json)
+# Only needed if config.json -> llm.provider = "openai"
+# ------------------------------------------------------------
+openai>=1.0.0,<3.0.0
+
+# ------------------------------------------------------------
+# OpenAI / httpx transitive dependencies (pinned for stability)
+# ------------------------------------------------------------
+anyio>=3.5.0,<5.0.0
+certifi>=2024.0.0
+idna>=3.4
+sniffio>=1.3.0
+tqdm>=4.64.0
+distro>=1.7.0,<2.0.0
+
+# ------------------------------------------------------------
+# Pydantic — used by openai SDK for request/response models
+# ------------------------------------------------------------
+pydantic>=2.0.0,<3.0.0
+pydantic-core>=2.0.0,<3.0.0
+annotated-types>=0.6.0
+typing-extensions>=4.11.0,<5.0.0
+typing-inspection>=0.4.0
+
+# ------------------------------------------------------------
+# Windows console colour support (tqdm/openai dep on Windows)
+# ------------------------------------------------------------
+colorama>=0.4.6; sys_platform == "win32"

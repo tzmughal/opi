@@ -1,0 +1,45 @@
+{
+  "thresholds": {
+    "recommended": 0.72,
+    "borderline_lower": 0.60
+  },
+  "hard_constraints": {
+    "emotional_stability_min": 0.60
+  },
+  "penalties": {
+    "extreme_answer_ratio_threshold": 0.60,
+    "low_variance_threshold": 0.5,
+    "extreme_answer_penalty": 0.05,
+    "inconsistency_penalty_multiplier": 0.15
+  },
+  "trait_weights": {
+    "emotional_stability": 1.0,
+    "planning_ability": 1.0,
+    "responsibility": 1.0,
+    "courage": 1.0,
+    "integrity": 1.0,
+    "determination": 1.0,
+    "conscientiousness": 0.8,
+    "discipline": 0.8,
+    "social_relations": 0.8,
+    "initiative": 0.8,
+    "practical_ability": 0.8,
+    "influencing_ability": 0.8,
+    "sociability": 0.6,
+    "general_awareness": 0.6,
+    "expression": 0.6,
+    "physical_endurance": 0.6,
+    "self_confidence": 0.6
+  },
+  "llm": {
+    "enabled": false,
+    "provider": "ollama",
+    "model": "llama3",
+    "openai_model": "gpt-4o-mini",
+    "timeout_seconds": 30
+  },
+  "session": {
+    "allow_back_navigation": true,
+    "auto_save": true
+  }
+}
